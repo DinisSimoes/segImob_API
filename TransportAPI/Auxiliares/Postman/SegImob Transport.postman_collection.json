@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "b355db32-32a1-4e06-9119-1c1f81197a58",
+		"name": "SegImob Transport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20594229"
+	},
+	"item": [
+		{
+			"name": "Servico",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7068/api/Servico",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Servico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7068/api/Servico/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Servico",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"origem\": \"Postman Test\",\r\n  \"destino\": \"endpoint postman\",\r\n  \"dataSaida\": \"2024-09-18\",\r\n  \"altura\": 100,\r\n  \"largura\": 26,\r\n  \"comprimento\": 59.5,\r\n  \"transporteId\": 1,\r\n  \"responsavel\": \"dinis\",\r\n  \"status\": \"enviado\",\r\n  \"custoTotal\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7068/api/Servico",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Servico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"origem\": \"Postman Test\",\r\n  \"destino\": \"endpoint postman\",\r\n  \"dataSaida\": \"2024-09-18\",\r\n  \"altura\": 100,\r\n  \"largura\": 26,\r\n  \"comprimento\": 59.5,\r\n  \"transporteId\": 1,\r\n  \"responsavel\": \"dinis\",\r\n  \"status\": \"enviado\",\r\n  \"custoTotal\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7068/api/Servico/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Servico",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7068/api/Servico/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Servico",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transporte",
+			"item": [
+				{
+					"name": "Get By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7068/api/Transporte/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Transporte",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"caminhaozinhopostman\",\r\n  \"custoPorMetroCubico\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7068/api/Transporte",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Transporte"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7068/api/Transporte",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7068",
+							"path": [
+								"api",
+								"Transporte"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
