@@ -1,5 +1,8 @@
-# segImob_API
+# SegImob API
 API para o front end consumir
+
+Link para [Tempos](https://docs.google.com/document/d/14MHKs-f7WTNHJFaAgIUIJEYfe-_xvy7LXGnuOFtVSGw/edit?usp=drive_link)
+Link para [Manual de Utilização](https://docs.google.com/document/d/1m53BzTNF4rq19SMJ8OFnOc8K9Y7Gq8zh3uX00pZbUdY/edit?usp=drive_link)
 
 # ENDPOINTS
 
